@@ -1,0 +1,106 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* download.jpg
+* ic_launcher-web.png
+* proguard-project.txt
+* testetrabalho\
+* testetrabalho\.git\
+* testetrabalho\.git\COMMIT_EDITMSG
+* testetrabalho\.git\HEAD
+* testetrabalho\.git\config
+* testetrabalho\.git\description
+* testetrabalho\.git\hooks\
+* testetrabalho\.git\hooks\README.sample
+* testetrabalho\.git\index
+* testetrabalho\.git\info\
+* testetrabalho\.git\info\exclude
+* testetrabalho\.git\logs\
+* testetrabalho\.git\logs\HEAD
+* testetrabalho\.git\logs\refs\
+* testetrabalho\.git\logs\refs\heads\
+* testetrabalho\.git\logs\refs\heads\master
+* testetrabalho\.git\objects\
+* testetrabalho\.git\objects\bd\
+* testetrabalho\.git\objects\bd\b0cabc87cf50106df6e15097dff816c8c3eb34
+* testetrabalho\.git\objects\d9\
+* testetrabalho\.git\objects\d9\803fec0e22063c60fafca979d0760ad1cb6fcf
+* testetrabalho\.git\objects\e0\
+* testetrabalho\.git\objects\e0\f0937d974f9e9e6c3a5d95ae3ba5888da355ca
+* testetrabalho\.git\refs\
+* testetrabalho\.git\refs\heads\
+* testetrabalho\.git\refs\heads\master
+* testetrabalho\.gitattributes
+* trabalhoteste\
+* trabalhoteste\.git\
+* trabalhoteste\.git\COMMIT_EDITMSG
+* trabalhoteste\.git\HEAD
+* trabalhoteste\.git\config
+* trabalhoteste\.git\description
+* trabalhoteste\.git\hooks\
+* trabalhoteste\.git\hooks\README.sample
+* trabalhoteste\.git\index
+* trabalhoteste\.git\info\
+* trabalhoteste\.git\info\exclude
+* trabalhoteste\.git\logs\
+* trabalhoteste\.git\logs\HEAD
+* trabalhoteste\.git\logs\refs\
+* trabalhoteste\.git\logs\refs\heads\
+* trabalhoteste\.git\logs\refs\heads\master
+* trabalhoteste\.git\objects\
+* trabalhoteste\.git\objects\05\
+* trabalhoteste\.git\objects\05\c346dc0ce49b833f1e19a2029145dc272e9258
+* trabalhoteste\.git\objects\19\
+* trabalhoteste\.git\objects\19\ce9d8ff1fccf510df82d99a65f48c649b7becd
+* trabalhoteste\.git\objects\96\
+* trabalhoteste\.git\objects\96\374c4e7f13264096db3a2c31c27963ee5a6f2d
+* trabalhoteste\.git\objects\bd\
+* trabalhoteste\.git\objects\bd\b0cabc87cf50106df6e15097dff816c8c3eb34
+* trabalhoteste\.git\refs\
+* trabalhoteste\.git\refs\heads\
+* trabalhoteste\.git\refs\heads\master
+* trabalhoteste\.gitattributes
+* trabalhoteste\.gitignore
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
